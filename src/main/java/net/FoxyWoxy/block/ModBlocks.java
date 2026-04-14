@@ -20,7 +20,7 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, whendaybreaks.MODID);
 
     public static final RegistryObject<Block> TRIPLE_T_BLOCK = registerBlock("big_t_block",
-            () -> new Block(BlockBehaviour.Properties.of()/*copy(Blocks.OAK_LOG)*/));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion().lightLevel(state -> 0)));
 
     public static final RegistryObject<Block> FLESH_BLOCK = registerBlock("flesh_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.WET_SPONGE).sound(SoundType.SLIME_BLOCK)));

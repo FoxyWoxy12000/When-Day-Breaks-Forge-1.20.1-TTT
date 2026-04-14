@@ -1,7 +1,5 @@
 {
   "variants": {
-    "": {
-      "model": "whendaybreaks:block/big_t_block"
-    }
+    "": { "model": "whendaybreaks:block/big_t_block" }
   }
 }
