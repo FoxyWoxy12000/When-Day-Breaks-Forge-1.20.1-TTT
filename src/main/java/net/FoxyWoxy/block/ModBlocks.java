@@ -19,7 +19,7 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, whendaybreaks.MODID);
 
     public static final RegistryObject<Block> TRIPLE_T_BLOCK = registerBlock("big_t_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
+            () -> new Block(BlockBehaviour.Properties.of()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
