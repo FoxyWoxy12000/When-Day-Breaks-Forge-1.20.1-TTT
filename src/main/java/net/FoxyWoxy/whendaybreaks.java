@@ -1,6 +1,7 @@
 package net.FoxyWoxy;
 
 import com.mojang.logging.LogUtils;
+import net.FoxyWoxy.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.food.FoodProperties;
@@ -33,23 +34,19 @@ import org.slf4j.Logger;
 @Mod(whendaybreaks.MODID)
 public class whendaybreaks {
 
-    // Define mod id in a common place for everything to reference
+
     public static final String MODID = "whendaybreaks";
-    // Directly reference a slf4j logger
+
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public whendaybreaks() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
-
-
         MinecraftForge.EVENT_BUS.register(this);
-
-        // Register the item to a creative tab
-        modEventBus.addListener(this::addCreative);
 
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
@@ -61,7 +58,9 @@ public class whendaybreaks {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
+        if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+            event.accept(ModItems.CONSUMABLE_FLESH_CHUNK);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
