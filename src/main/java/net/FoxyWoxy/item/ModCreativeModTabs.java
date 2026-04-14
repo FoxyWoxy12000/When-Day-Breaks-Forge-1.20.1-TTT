@@ -22,6 +22,8 @@ public class ModCreativeModTabs {
                     pOutput.accept(ModItems.CONSUMABLE_FLESH_CHUNK.get());
                     pOutput.accept(ModItems.GOLDY_WEAPON.get());
                     pOutput.accept(ModBlocks.TRIPLE_T_BLOCK.get());
+                    pOutput.accept(ModBlocks.FLESH_BLOCK.get());
+                    pOutput.accept(ModItems.EXECUTION_SWORD.get());
                     })
                     .build());
 

@@ -1,8 +1,10 @@
 {
   "item.whendaybreaks.consumable_flesh": "Consumable Flesh",
   "item.whendaybreaks.godly_weapon": "Godly Weapon",
+  "item.whendaybreaks.execution_sword": "EXICUTIONER SWORD",
 
   "block.whendaybreaks.big_t_block": "Big Triple T",
+  "block.whendaybreaks.flesh_block": "Flesh Block",
 
-  "creativetab.whendaybreaks_tab": "When Day Breaks Tab"
+  "creativetab.whendaybreaks_tab": "When Day Breaks"
 }
