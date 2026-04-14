@@ -525,6 +525,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2026-04-14 03:49:20 -0700",
       "minecraft:spider": "2026-04-14 01:04:00 -0700",
       "minecraft:creeper": "2026-04-14 00:11:18 -0700",
       "minecraft:stray": "2026-04-14 00:05:11 -0700",
