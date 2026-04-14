@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block:/big_t_block",
+  "textures": {
+    "all": "whendaybreaks:block/big_t_block"
+  }
+}

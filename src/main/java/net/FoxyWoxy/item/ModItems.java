@@ -15,6 +15,9 @@ public class ModItems {
     public static final RegistryObject<Item> CONSUMABLE_FLESH_CHUNK = ITEMS.register("consumable_flesh",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> GOLDY_WEAPON = ITEMS.register("godly_weapon",
+            () -> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

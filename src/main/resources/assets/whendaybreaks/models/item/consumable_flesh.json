@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "whendaybreakes:item/consumable_flesh"
+    "layer0": "whendaybreaks:item/consumable_flesh"
   }
 }
