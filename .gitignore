@@ -2,6 +2,7 @@
 /.gradle/
 /build/
 /build/classes/java/main/
-/run/
 /src/generated/
 /src/test/
+/run/
+/run-data/

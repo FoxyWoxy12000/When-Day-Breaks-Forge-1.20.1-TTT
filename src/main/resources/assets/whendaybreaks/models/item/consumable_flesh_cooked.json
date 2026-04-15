@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "whendaybreaks:item/consumable_flesh_cooked"
+  }
+}

@@ -24,11 +24,11 @@ hideLightningFlashes:false
 mouseSensitivity:0.5
 fov:1.0
 screenEffectScale:1.0
-fovEffectScale:1.0
-darknessEffectScale:1.0
+fovEffectScale:0.0
+darknessEffectScale:0.0
 glintSpeed:0.5
 glintStrength:0.75
-damageTiltStrength:1.0
+damageTiltStrength:0.0
 highContrast:false
 gamma:0.5
 renderDistance:20
@@ -116,8 +116,8 @@ key_key.hotbar.4:key.keyboard.4
 key_key.hotbar.5:key.keyboard.5
 key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
-key_key.hotbar.8:key.keyboard.8
-key_key.hotbar.9:key.keyboard.9
+key_key.hotbar.8:key.mouse.4
+key_key.hotbar.9:key.mouse.5
 soundCategory_master:0.5074503311258278
 soundCategory_music:0.0
 soundCategory_record:1.0

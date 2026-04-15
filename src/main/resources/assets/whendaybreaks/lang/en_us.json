@@ -2,9 +2,13 @@
   "item.whendaybreaks.consumable_flesh": "Consumable Flesh",
   "item.whendaybreaks.godly_weapon": "Godly Weapon",
   "item.whendaybreaks.execution_sword": "EXICUTIONER SWORD",
+  "block.whendaybreaks.consumable_flesh_cooked": "Cooked Consumable Flesh",
 
   "block.whendaybreaks.big_t_block": "Big Triple T",
   "block.whendaybreaks.flesh_block": "Flesh Block",
+  "block.whendaybreaks.flesh_block_cooked": "Cooked Flesh Block",
+  "block.whendaybreaks.evil_painter_block": "EVIL AUSTRIAN PAINTER WHO GOT REJECTED FROM ART SCHOOL AND IS NOW GERMAN",
 
-  "creativetab.whendaybreaks_tab": "When Day Breaks"
+  "creativetab.whendaybreaks_tab": "When Day Breaks",
+  "creativetab.test_tab": "TEST TAB"
 }

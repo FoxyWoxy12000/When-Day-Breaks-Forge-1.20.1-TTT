@@ -16,6 +16,9 @@ public class ModItems {
     public static final RegistryObject<Item> CONSUMABLE_FLESH_CHUNK = ITEMS.register("consumable_flesh",
             () -> new Item(new Item.Properties().food(ModFoods.FLESH)));
 
+    public static final RegistryObject<Item> COOKED_CONSUMABLE_FLESH_CHUNK = ITEMS.register("consumable_flesh_cooked",
+            () -> new Item(new Item.Properties().food(ModFoods.FLESH_COOKED)));
+
     public static final RegistryObject<Item> GOLDY_WEAPON = ITEMS.register("godly_weapon",
             () -> new SwordItem(ModToolTeirs.EXECUTIONER,200,-3, new Item.Properties()));
     public static final RegistryObject<Item> EXECUTION_SWORD = ITEMS.register("execution_sword",
