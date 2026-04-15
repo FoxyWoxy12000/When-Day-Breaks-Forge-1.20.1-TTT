@@ -32,7 +32,7 @@ public class ModBlocks {
             block -> new BlockItem(block, new Item.Properties().food(ModFoods.FLESH_BLOCK_FOOD)));
 
     public static final RegistryObject<Block> FLESH_BLOCK_COOKED = registerBlock("flesh_block_cooked",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WET_SPONGE).sound(SoundType.SLIME_BLOCK)),
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WET_SPONGE).sound(SoundType.HONEY_BLOCK)),
             block -> new BlockItem(block, new Item.Properties().food(ModFoods.FLESH_BLOCK_COOKED)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
