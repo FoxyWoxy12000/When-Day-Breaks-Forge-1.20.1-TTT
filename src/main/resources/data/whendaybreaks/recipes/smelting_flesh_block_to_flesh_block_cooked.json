@@ -1,7 +1,9 @@
 {
   "type": "minecraft:smelting",
   "category": "food",
-  "ingredient": "whendaybreaks:flesh_block",
+  "ingredient": {
+  "item": "whendaybreaks:flesh_block"
+  },
   "result": "whendaybreaks:flesh_block_cooked",
   "cookingtime": 200
 }
