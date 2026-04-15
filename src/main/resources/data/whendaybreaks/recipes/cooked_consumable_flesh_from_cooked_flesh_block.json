@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "whendaybreaks:flesh_block_cooked"
+    }
+  ],
+  "result" : {
+    "item": "whendaybreaks:consumable_flesh_cooked",
+    "count": 9
+  }
+}

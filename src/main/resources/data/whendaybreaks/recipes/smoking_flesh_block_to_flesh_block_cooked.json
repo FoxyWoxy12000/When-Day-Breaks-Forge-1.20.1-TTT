@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "ingredient": "whendaybreaks:flesh_block",
+  "result": "whendaybreaks:flesh_block_cooked",
+  "cookingtime": 100
+}

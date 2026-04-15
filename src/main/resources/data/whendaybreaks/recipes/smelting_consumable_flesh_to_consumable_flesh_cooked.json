@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "ingredient": "whendaybreaks:consumable_flesh",
+  "result": "whendaybreaks:consumable_flesh_cooked",
+  "cookingtime": 200
+}
